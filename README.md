@@ -31,21 +31,11 @@ pip install uv
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/ponasvytas/downloader.git
 cd downloader
 
 # Install dependencies and the package
 uv sync --native-tls
-```
-
-### Production Installation
-
-```bash
-# Install from PyPI (when published)
-uv pip install downloader
-
-# Or install from source
-uv pip install .
 ```
 
 ## Configuration
