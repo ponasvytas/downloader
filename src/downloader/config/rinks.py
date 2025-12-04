@@ -13,6 +13,8 @@ RINK_NAMES = {
     485: "Farmers Branch Tom Gaglardi Rink",
     486: "McKinney North Rink",
     487: "McKinney South Rink",
+    568: "Family Sports Ice Arena - Avalance Rink",
+    569: "Family Sports Ice Arena - Fix-it 24/7 Rink",
     762: "Mansfield Derian Hatcher Rink",
     763: "Mansfield Brenden Morrow Rink",
     1178: "Spirit Ice Arena",
@@ -25,6 +27,9 @@ RINK_NAMES = {
     1360: "NYTEX West Rink",
     1576: "Ice and Field at Crossover Silver Rink",
     1577: "Ice and Field at Crossover Gold Rink",
+    2125: "South Suburban Sports Complex Rink 1",
+    2126: "South Suburban Sports Complex Rink 2",
+    2127: "South Suburban Sports Complex Rink 3",
     3239: "Centennial Sportsplex Nashville Rink A",
     3240: "Centennial Sportsplex Nashville Rink B",
 }

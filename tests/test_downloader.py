@@ -1,10 +1,15 @@
 """Tests for the downloader module."""
 
+import asyncio
 import pytest
 from pathlib import Path
 from datetime import datetime, timedelta
 
-from downloader.core.downloader import round_down_to_nearest_half_hour, create_urls
+from downloader.core.downloader import (
+    round_down_to_nearest_half_hour,
+    create_urls,
+    find_playlist_links,
+)
 
 
 def test_round_down_to_nearest_half_hour():
@@ -43,3 +48,11 @@ def test_create_urls():
     assert "153" in urls[0]
     assert "2024-09-06" in urls[0]
     assert "18:30" in urls[0]
+
+
+def test_single_url():
+    url = "https://watch.livebarn.com/en/video/39/2025-09-14/14:00"
+
+    pure_urls = find_playlist_links([url], download_pano=False)
+
+    print(pure_urls)
